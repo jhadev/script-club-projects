@@ -1,9 +1,11 @@
 {
-  "title": "Session 1",
-  "description": "",
+  "title": "Script Club - Session 1",
+  "description": "console, variables, types, and operators",
   "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
   "htmlAttrs": "lang=\"en\" class=\"\"",
-  "tags": [],
+  "tags": [
+    ""
+  ],
   "autoupdate": true,
   "autosave": false,
   "autotest": false,
