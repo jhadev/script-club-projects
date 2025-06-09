@@ -1,0 +1,68 @@
+{
+  "title": "Session 1",
+  "description": "",
+  "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+  "htmlAttrs": "lang=\"en\" class=\"\"",
+  "tags": [],
+  "autoupdate": true,
+  "autosave": false,
+  "autotest": false,
+  "delay": 1500,
+  "formatOnsave": false,
+  "view": "split",
+  "mode": "full",
+  "theme": "dark",
+  "themeColor": "hsl(220, 20%, 50%)",
+  "layout": "responsive",
+  "recoverUnsaved": true,
+  "showSpacing": false,
+  "welcome": true,
+  "readonly": false,
+  "allowLangChange": true,
+  "activeEditor": "script",
+  "languages": [
+    "javascript",
+    "typescript"
+  ],
+  "markup": {
+    "language": "html",
+    "content": ""
+  },
+  "style": {
+    "language": "css",
+    "content": ""
+  },
+  "script": {
+    "language": "javascript",
+    "content": "// Session 1\n\n// 01 - console\n\nconsole.log('This is a log.')\nconsole.warn('This is a warning.')\nconsole.error('This in an error.')\n\n// https://developer.mozilla.org/en-US/docs/Web/API/console\n\n// 02 - variables\n\n// Declares student variable using const keyword \nconst studentName = \"Paul\"\n\n// Uses assignment operator(=) to assign a value\n\nlet studentName2 = \"John\"\n// To re-assign a variable, use only the variable's name  \nstudentName2 = \"Jacob\"\n\n// To access a value stored in a variable, use the variable's name\nconsole.log(studentName);\nconsole.log(studentName2);\n\n// To combine the message with a variable value use the concatenation operator(+)\n// Logs \"My name is \"\nconsole.log(\"My name is \");\n\n// Logs \"My name is Paul\"\nconsole.log(\"My name is \" + studentName);\n\n// 03 - types\n\n// Primitive data types include undefined, string, number and boolean\n// Undefined variables haven't been assigned values yet.\nvar myUndefined;\n\n// A string is a series of characters and is surrounded by quotes \nvar myStringWelcome = \"Hello World\"; \nvar myStringPassword = \"865Password!2020\";\n\n// A number can be either an integer or a decimal  \nvar myNumberInt = 100;\nvar myNumberDecimal = 100.100;\n\n// Booleans have two values: true or false\nvar isMyBooleanTrue = true;\nvar isMyBooleanFalse = false;\n\n// To check the type of data, use typeof followed by the name of the variable\n// Logs undefined\nconsole.log(typeof myUndefined);\n\n// Logs number\nconsole.log(typeof myNumberInt); \n\n// Logs boolean\nconsole.log(typeof true);\n\n// Logs string\nconsole.log(typeof \"Howdy\");\n\n// Pro-tip: JavaScript is loosely typed, so the type is tied to the value held in the variable, not the variable itself!\n// Logs number\nvar myVariable = 33;\nconsole.log(typeof myVariable);\n\n// myVariable is reassigned; Logs boolean\nmyVariable = false;\nconsole.log(typeof myVariable);\n\n// 04 - operators\n\nvar a = 100;\nvar b = 10;\nvar c = '10';\n\n// Arithmetic operators combine with numbers to form an expression that returns a single number\nconsole.log(a + b);\nconsole.log(a - b);\nconsole.log(a / b);\nconsole.log(a * b);\nconsole.log(10 ** 2);\n\n// Modulus returns the remainder between two numbers.\nconsole.log(a % b);\n\n// Comparison operators combine with strings, booleans and numbers to form an expression that evaluates to true or false\n// Compares equality\n\nconsole.log(b == c);\nconsole.log(b != c);\n\n// Compares equality and type (strict equality)\nconsole.log(b === c);\nconsole.log(b !== c);\n\n// Greater than or less than\nconsole.log(a > b);\nconsole.log(a < b);\n\n// Greater than or equal to and less than or equal to\nconsole.log(a <= b);\nconsole.log(a >= b);\n\n// Logical operators take in two or more expressions and return true or false\nvar expression1 = b == c;\nvar expression2 = a > b;\n\n// Evaluates to true if expression1 AND expression2 are both true, otherwise false\n\nconsole.log(expression1 && expression2);\n\n// Evaluates to true if expression1 OR expression2 is true, otherwise false\n\nconsole.log(expression1 || expression2);\n\n// Logical Not (!) turns an expression that evaluates to true to false and vice versa\n// Returns true\n\nconsole.log(expression2);\n\n// Returns false\nconsole.log(!expression2);"
+  },
+  "stylesheets": [],
+  "scripts": [],
+  "cssPreset": "",
+  "imports": {},
+  "types": {},
+  "tests": {
+    "language": "typescript",
+    "content": ""
+  },
+  "tools": {
+    "enabled": "all",
+    "active": "console",
+    "status": "full"
+  },
+  "zoom": 1,
+  "processors": [],
+  "customSettings": {},
+  "useTabs": false,
+  "tabSize": 2,
+  "lineNumbers": true,
+  "wordWrap": false,
+  "closeBrackets": true,
+  "foldRegions": false,
+  "semicolons": true,
+  "singleQuote": false,
+  "trailingComma": true,
+  "emmet": true,
+  "enableAI": false,
+  "version": "46"
+}
