@@ -1,70 +1,74 @@
 {
-    "title": "Script Club - Session 2",
-    "description": "COnditionals, Loops, Break/Continue statements, Trythy/Falsy values",
-    "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
-    "htmlAttrs": "lang=\"en\" class=\"\"",
-    "tags": [
-      ""
-    ],
-    "autoupdate": true,
-    "autosave": false,
-    "autotest": false,
-    "delay": 1500,
-    "formatOnsave": false,
-    "view": "split",
-    "mode": "full",
-    "theme": "dark",
-    "themeColor": "hsl(220, 20%, 50%)",
-    "layout": "responsive",
-    "recoverUnsaved": true,
-    "showSpacing": false,
-    "welcome": true,
-    "readonly": false,
-    "allowLangChange": true,
-    "activeEditor": "script",
-    "languages": [
-      "javascript",
-      "typescript"
-    ],
-    "markup": {
-      "language": "html",
-      "content": ""
-    },
-    "style": {
-      "language": "css",
-      "content": ""
-    },
-    "script": {
-      "language": "javascript",
-      "content": "// Session 2 - Control Structures and Flow\n\n// 01 - Conditional statements\n\n// 02 - Loops\n\n// 03 - Break and Continue statements\n\n// 04 - Truthy/Falsy values"
-    },
-    "stylesheets": [],
-    "scripts": [],
-    "cssPreset": "",
-    "imports": {},
-    "types": {},
-    "tests": {
-      "language": "typescript",
-      "content": ""
-    },
-    "tools": {
-      "enabled": "all",
-      "active": "console",
-      "status": "full"
-    },
-    "zoom": 1,
-    "processors": [],
-    "customSettings": {},
-    "useTabs": false,
-    "tabSize": 2,
-    "lineNumbers": true,
-    "wordWrap": false,
-    "closeBrackets": true,
-    "foldRegions": false,
-    "semicolons": true,
-    "singleQuote": false,
-    "trailingComma": true,
-    "emmet": true,
-    "enableAI": false,
-    "version": "46"
-  }
+  "title": "Script Club - Session 2",
+  "description": "COnditionals, Loops, Break/Continue statements, Trythy/Falsy values",
+  "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+  "htmlAttrs": "lang=\"en\" class=\"\"",
+  "tags": [
+    ""
+  ],
+  "autoupdate": true,
+  "autosave": false,
+  "autotest": false,
+  "delay": 1500,
+  "formatOnsave": false,
+  "view": "split",
+  "mode": "full",
+  "theme": "dark",
+  "themeColor": "hsl(220, 20%, 50%)",
+  "layout": "responsive",
+  "editorTheme": "",
+  "recoverUnsaved": true,
+  "showSpacing": false,
+  "welcome": true,
+  "readonly": false,
+  "allowLangChange": true,
+  "activeEditor": "script",
+  "languages": [
+    "javascript",
+    "typescript"
+  ],
+  "markup": {
+    "language": "html",
+    "content": ""
+  },
+  "style": {
+    "language": "css",
+    "content": ""
+  },
+  "script": {
+    "language": "javascript",
+    "content": "// Session 2 - Control Structures and Flow\n\n// 01 - Conditional statements\n\n// Change the values and operators below to test your algorithm meets all conditions\nvar x = 50;\nvar expression1 = (x < 25);\nvar expression2 = (x > 50);\n\n// Write Your JavaScript Code Here\n// Check if both expressions are true using &&\n\nif (expression1 && expression2) {\n    console.log(\"True ✅ True ✅\");\n\n// If both conditions are not true, check if expression1 is true\n} else if (expression1) {\n    console.log(\"True ✅ False ❌\");\n\n// If expression1 is not true, then check if expression2 is true\n} else if (expression2) {\n    console.log(\"False ❌ True ✅\");\n\n// If none of the conditions above evaluate to true, both expressions must be false\n} else {\n    console.log(\"False ❌ False ❌\");\n}\n\n// 02 - Loops\n\n// We use a for-loop to execute code more than once\nfor (var i = 0; i < 5; i++) {\n  // This is the block of code that will run each time\n  console.log('This is the current value of i: ' + i + '.');\n}\n\n// For-loops are often used to iterate over arrays\nvar fruits = ['Apples', 'Bananas', 'Grapes', 'Peaches', 'Pears'];\n\n// To determine how many times the loop should execute, we use the array's length\nfor (var i = 0; i < fruits.length; i++) {\n  console.log('I am going to the market for ' + fruits[i] + '.');\n}\n\n\n// 03 - Break and Continue statements\n\n// empty array\nvar fruitsWeBought = []\n\nfor (var j = 0; j < fruits.length; j++) {\n  var fruit = fruits[j]\n\n  // we didn't buy Bananas so we want to skip it but still remain in our loop\n  if (fruit === 'Bananas') {\n  // continue statement terminates current iteration of current loop and moves on to next\n    continue  \n  }\n\n  // our cart is full and we can't buy anymore fruit, so we want to exit our loop\n  if (fruit === 'Peaches') {\n\n    // terminates current loop\n    console.log(fruit + ' === Peaches so break loop')\n    break\n  }\n \n console.log(\"iteration: \" + j + \" = \" + fruit)\n // fill the new array with fruit we bought\n fruitsWeBought.push(fruit)\n}\n\nconsole.table(fruitsWeBought)\n\n// 04 - Truthy/Falsy values\n\n"
+  },
+  "stylesheets": [],
+  "scripts": [],
+  "cssPreset": "",
+  "imports": {},
+  "types": {},
+  "tests": {
+    "language": "typescript",
+    "content": ""
+  },
+  "tools": {
+    "enabled": "all",
+    "active": "console",
+    "status": "full"
+  },
+  "zoom": 1,
+  "processors": [],
+  "customSettings": {},
+  "editor": "monaco",
+  "fontFamily": "Fira Code",
+  "fontSize": 14,
+  "useTabs": false,
+  "tabSize": 2,
+  "lineNumbers": true,
+  "wordWrap": false,
+  "closeBrackets": true,
+  "foldRegions": false,
+  "semicolons": true,
+  "singleQuote": false,
+  "trailingComma": true,
+  "emmet": true,
+  "enableAI": false,
+  "version": "46"
+}
