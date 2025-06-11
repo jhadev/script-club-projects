@@ -37,7 +37,7 @@
   },
   "script": {
     "language": "javascript",
-    "content": "// Session 2 : Homework Assignment\n// 1. Use a ternary operator to classify a number as \"Positive\", \"Negative\", or \"Zero\".\n// 2. Use a for...of loop to print the first 10 even numbers (2, 4, ..., 20) from an array.\n// 3. Bonus: Create an object with 3 properties (e.g., product details) and use for...in to log each property and value.\n// 4. To submit your homework, from the menu bar select Project > Share, then select \"Get Short URL\". Copy this link and\n//    submit at <insert Google Form link from Catherine>"
+    "content": "// Session 2 : Homework Assignment\n// 1. Use a ternary operator to classify a number as \"Positive\", \"Negative\", or \"Zero\".\n// 2. Use a for...of loop to print the first 10 even numbers (2, 4, ..., 20) from an array.\n// 3. Bonus: Create an object with 3 properties (e.g., product details) and use for...in to log each property and value.\n// 4. To submit your homework, from the menu bar select Project > Share, then select \"Get Short URL\". Copy this link and\n//    submit at https://forms.gle/5WxTBF1N5rHmf8zz7"
   },
   "stylesheets": [],
   "scripts": [],
