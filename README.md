@@ -20,3 +20,21 @@
     https://raw.githubusercontent.com/jhadev/script-club-projects/refs/heads/main/Script_Club_Session_1.json
 
   ![Import Project URL](https://github.com/user-attachments/assets/2d12347d-e4a6-44ee-a3d8-66ccb142b2f9)
+
+## Sharing
+
+Submitting homework is as simple as sharing code right from the editor.
+
+1. Click **Project** menu on top left
+   
+   ![Project](https://github.com/user-attachments/assets/96ab893a-5057-4009-93b0-e9d08b3e0b5c)
+
+2. Select **Share** from dropdown
+  
+   ![Share](https://github.com/user-attachments/assets/ea120683-d1ee-4b09-9176-15516a27dc75)
+
+3. Click **Get short URL** from modal
+   
+   ![Image](https://github.com/user-attachments/assets/1333564b-17fb-4da9-bc31-b914014eda40)
+
+4. Copy shortened URL
