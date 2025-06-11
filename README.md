@@ -1,7 +1,7 @@
 ## Importing Sessions
 
 1. Navigate to class [REPL](https://repl.nighthauk.com)
-2. Click **Project** menu on top right
+2. Click **Project** menu on top left
    
   ![Project](https://github.com/user-attachments/assets/96ab893a-5057-4009-93b0-e9d08b3e0b5c)
 
