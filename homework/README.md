@@ -25,6 +25,11 @@
 
 ## Session 2
 
+1. Use a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) to classify a number as "Postive", "Negative", or "Zero".
+2. Use a [for ... of](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) loop to print the first 10 even numbers (2, 4, ..., 20) from an array.
+   
+  **BONUS** - Create an object with 3 properties (e.g., product details) and use [for ... in](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in) to log each property and value.
+
 ## Session 3
 
 ## Session 4
