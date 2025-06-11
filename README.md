@@ -35,6 +35,6 @@ Submitting homework is as simple as sharing code right from the editor.
 
 3. Click **Get short URL** from modal
    
-   ![Image](https://github.com/user-attachments/assets/1333564b-17fb-4da9-bc31-b914014eda40)
+   ![Get Short URL](https://github.com/user-attachments/assets/3e4e34eb-d104-482b-be9b-40f45b1dc924)
 
 4. Copy shortened URL
