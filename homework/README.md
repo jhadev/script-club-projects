@@ -23,6 +23,10 @@
 
 ## Session 1
 
+1. Write a program to declare variables of different [data types](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Data_structures).
+2. Perform basic arithmetic functions (e.g., calculate the total and average of three numbers).
+3. Log results to the console and experiment with different outputs.
+
 ## Session 2
 
 1. Use a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator) to classify a number as "Positive", "Negative", or "Zero".
@@ -32,7 +36,15 @@
 
 ## Session 3
 
+1. Write a function that takes two numbers and returns their product.
+2. Create an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) to check if a string is longer than 5 characters.
+3. Use [try ... catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch) to handle an invalid input scneario (e.g., non-numeric input)
+   
 ## Session 4
+
+1. Create an array of 5 numbers and write a function to calculate their sum using [reduce](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce).
+2. Use [map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map) to create a new array with each number squared
+3. [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) the array to include only numbers greater than 10
 
 ## Session 5
 
