@@ -35,7 +35,7 @@
   },
   "script": {
     "language": "javascript",
-    "content": "// Session 1 : Homework Assignment\n// 1. Write a program to declare variables of different data types.\n// 2. Perform basic arithmetic functions (e.g., calculate the total and average of three numbers).\n// 3. Log results to the console and experiment with different outputs.\n// 4. To submit your homework, from the menu bar select Project > Share, then select \"Get Short URL\". Copy this link and\n//    submit at <insert Google Form link from Catherine>"
+    "content": "// Session 1 : Homework Assignment\n// 1. Write a program to declare variables of different data types.\n// 2. Perform basic arithmetic functions (e.g., calculate the total and average of three numbers).\n// 3. Log results to the console and experiment with different outputs.\n// 4. To submit your homework, from the menu bar select Project > Share, then select \"Get Short URL\". Copy this link and\n//    submit at https://forms.gle/5WxTBF1N5rHmf8zz7"
   },
   "stylesheets": [],
   "scripts": [],
