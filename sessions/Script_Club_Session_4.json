@@ -1,6 +1,6 @@
 {
   "title": "Script Club - Session 4",
-  "description": "",
+  "description": "Arrays, indexing and basic methods, ES6 array methods, iterating array and debugging techniques.",
   "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
   "htmlAttrs": "lang=\"en\" class=\"\"",
   "tags": [],

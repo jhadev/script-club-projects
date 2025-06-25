@@ -1,0 +1,72 @@
+{
+  "title": "Script Club - Session 5 Homework",
+  "description": "",
+  "head": "<meta charset=\"UTF-8\" />\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+  "htmlAttrs": "lang=\"en\" class=\"\"",
+  "tags": [],
+  "autoupdate": true,
+  "autosave": false,
+  "autotest": false,
+  "delay": 1500,
+  "formatOnsave": false,
+  "view": "split",
+  "mode": "full",
+  "theme": "dark",
+  "themeColor": "hsl(220, 20%, 50%)",
+  "layout": "responsive",
+  "editorTheme": "",
+  "recoverUnsaved": true,
+  "showSpacing": false,
+  "welcome": true,
+  "readonly": false,
+  "allowLangChange": true,
+  "activeEditor": "markup",
+  "languages": [
+    "js",
+    "ts"
+  ],
+  "markup": {
+    "language": "html",
+    "content": ""
+  },
+  "style": {
+    "language": "css",
+    "content": ""
+  },
+  "script": {
+    "language": "javascript",
+    "content": "// Session 5 : Homework Assignment\n// 1. Create an array of 5 numbers and write a function to calculate their sum using reduce.\n// 2. Use map to create a new array with each number squared.\n// 3. Filter the array to include only numbers greater than 10.\n// 4. To submit your homework, from the menu bar select Project > Share, then select \"Get Short URL\". Copy this link and\n//    submit at https://forms.gle/5WxTBF1N5rHmf8zz7"
+  },
+  "stylesheets": [],
+  "scripts": [],
+  "cssPreset": "",
+  "imports": {},
+  "types": {},
+  "tests": {
+    "language": "typescript",
+    "content": ""
+  },
+  "tools": {
+    "enabled": "all",
+    "active": "console",
+    "status": "full"
+  },
+  "zoom": 1,
+  "processors": [],
+  "customSettings": {},
+  "editor": "monaco",
+  "fontFamily": "Fira Code",
+  "fontSize": 14,
+  "useTabs": false,
+  "tabSize": 2,
+  "lineNumbers": true,
+  "wordWrap": false,
+  "closeBrackets": true,
+  "foldRegions": false,
+  "semicolons": true,
+  "singleQuote": false,
+  "trailingComma": true,
+  "emmet": true,
+  "enableAI": false,
+  "version": "46"
+}
