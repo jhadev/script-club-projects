@@ -36,12 +36,24 @@
 
 ## Session 3
 
-1. Write a function that takes a price and tax rate, calculates the total with tax, and handles invalid inputs (negative numbers or non-numbers). Use default parameters and error handling. Assume a default 20% tax rate.
-2. Log results to the console as seen by the example test cases.
-- calculatePriceWithTax(100, 0.1) // Should return 110
-- calculatePriceWithTax(50)       // Should use default tax rate
-- calculatePriceWithTax(-10, 0.1) // Should handle error
-- calculatePriceWithTax("100", 0.1) // Should handle error
+1. Write a function that takes a price and tax rate, calculates the total with tax,
+and handles invalid inputs (negative numbers or non-numbers). Use default parameters and error handling.,
+assume a default 20% tax rate.
+2. Log results to the console as seen by the example test cases below.
+3. Test your function in the console with:
+   ```
+    calculatePriceWithTax(100, 0.1) // Should return 110
+    calculatePriceWithTax(50)       // Should use default tax rate
+    calculatePriceWithTax(-10, 0.1) // Should handle error
+    calculatePriceWithTax("100", 0.1) // Should handle error
+
+    // Example Test case. Create a total of 4 to match the conditions listed above.
+    // console.log("Homework Test 1:", calculatePriceWithTax(100, 0.1)); // Output: Homework Test 1: 110
+    // etc...
+   ```
+Helpful links: 
+- [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) (optional)
+- [try ... catch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/try...catch)
    
 ## Session 4
 
