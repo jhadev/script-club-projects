@@ -62,6 +62,9 @@ Helpful links:
 3. [Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) the array to include only numbers greater than 10.
 
 ## Session 5
+1. Create an object representing a user with properties (name, email, role).
+2. Write a function to update the role using destructuring.
+3. Convert the object to JSON and parse it back into an object.
 
 ## Session 6
 
